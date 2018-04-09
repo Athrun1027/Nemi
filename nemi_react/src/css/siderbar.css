@@ -1,0 +1,23 @@
+.home-sider{
+  min-height: 100vh;
+  transition: all .3s;
+}
+.home-logo {
+  height: 32px;
+  margin: 16px;
+  overflow: hidden;
+  text-align: center;
+}
+.home-logo img{
+  height: 32px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.home-logo span{
+  color: #fff;
+  font-family: 'Apple-Chancery', 'Apple Chancery Chancery', 'Apple Chancery';
+  font-size: 20px;
+  margin-left: 0.5rem;
+  display: inline-block;
+  vertical-align: middle;
+}

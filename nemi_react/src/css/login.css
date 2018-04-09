@@ -1,0 +1,56 @@
+.login {
+  background: linear-gradient(to bottom, #c9ffbf, #ffafbd);
+  width: 100vw;
+  position:absolute;
+  height: 100vh;
+}
+
+.login-title{
+    margin: 4rem 0 3rem;
+}
+.login-title span {
+    font-family: 'Apple-Chancery', 'Apple Chancery Chancery', 'Apple Chancery';
+    font-size: 28px;
+}
+.login-title img {
+    height: 40px;
+    position: relative;
+    top: -5px;
+}
+
+.login-title p{
+    font-family: 'NanumBrush', 'Nanum Brush Script';
+    color: rgba(0, 0, 0, 0.427450980392157);
+}
+
+.login-form {
+  max-width: 20rem;
+}
+
+.login-form-auto {
+  float: left;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 20rem;
+}
+.login-foot a{
+    font-family: 'NanumBrush', 'Nanum Brush Script';
+    color: rgba(0, 0, 0, 0.427450980392157);
+    margin: 0 20px 0;
+}
+.login-foot p{
+    color: rgba(0, 0, 0, 0.427450980392157);
+}
+
+
+.login-alert{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.ant-alert-description{
+    overflow:hidden;
+}

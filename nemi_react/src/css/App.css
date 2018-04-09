@@ -1,0 +1,12 @@
+body{
+    font-family: "Monospaced Number","Chinese Quote",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.text-small{
+    font-size: 20px;
+}
+.text-gay{
+    color: rgba(0,0,0,.45)!important;
+}
+.text-lager{
+    font-size: 70px;
+}

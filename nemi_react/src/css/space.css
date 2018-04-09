@@ -1,0 +1,29 @@
+.space-body{
+    margin:20px;
+    background: #fff;
+    min-height: 400px
+}
+.space-body-head{
+    padding: 1rem;
+}
+.space-body-head button{
+    margin-right: 1rem;
+}
+.space-body .ant-table-wrapper {
+    padding: 0 1rem;
+}
+
+.custom-filter-dropdown input{
+  width: 130px;
+  margin-right: 8px;
+}
+
+.highlight {
+  color: #f50;
+}
+.group-tab{
+    margin-bottom: 0
+}
+.group-tab .ant-tabs-bar{
+    margin-bottom: 0
+}

@@ -1,0 +1,9 @@
+.home-foot{
+  color: rgba(0, 0, 0, 0.427450980392157);
+  text-align: center;
+}
+.home-foot a{
+  font-family: 'NanumBrush', 'Nanum Brush Script';
+  color: rgba(0, 0, 0, 0.427450980392157);
+  margin: 0 20px 0;
+}

@@ -1,0 +1,48 @@
+.home-trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+.home-trigger:hover {
+  color: #1890ff;
+}
+.home-user{
+  float: right;
+  margin-right: 1rem;
+}
+.home-user span{
+  color: rgba(0,0,0,.65);
+}
+
+.home-hover{
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+.home-hover:hover{
+  background: #e6f7ff;
+  transition: background .3s;
+}
+.home-user i{
+  font-size: 1rem;
+  padding: 4px;
+  color: rgba(0,0,0,.65);
+}
+
+.home-user-avatar{
+  position: relative;
+  top: -0.2rem;
+}
+.message-list{
+  max-width: 366px;
+  max-height: 100%
+}
+.message-list .ant-list-item-meta-description{
+  text-overflow: ellipsis;
+}
+.message-delete{
+  float: right;
+  margin-left: 1rem;
+}

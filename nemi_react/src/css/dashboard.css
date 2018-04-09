@@ -1,0 +1,82 @@
+.borad-header-inline{
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+.borad-header-inline::after{
+    background-color: #e8e8e8;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 1px;
+    height: 40px;
+    content: "";
+}
+.borad-who{
+    margin-left: 1rem;
+}
+.borad-header{
+    margin-bottom: 0.5rem;
+}
+
+.board-img{
+    border-radius: 72px;
+    display: block;
+    width: 72px;
+    height: 72px;
+    position: relative;
+    top: -0.5rem;
+}
+
+.borad-hello{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: rgba(0,0,0,.85);
+    display: block;
+    margin-bottom: 12px;
+    font-family: "Monospaced Number","Chinese Quote",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.borad-body{
+    margin:20px;
+}
+
+.borad-body .ant-card-meta-avatar{
+    padding-right: 0!important;
+}
+
+.borad-box1{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background: #fff;
+    min-height: 400px
+}
+.borad-box2{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: #fff;
+    min-height: 250px;
+    overflow: auto;
+}
+
+.borad-quick{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: #fff;
+    min-height: 250px
+}
+.borad-quick-item{
+    margin:0.5rem;
+    width: 25%;
+    display: inline-block;
+}
+.borad-box3{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.borad-box3 .ant-card-body{
+    padding: 0!important;
+}

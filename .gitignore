@@ -1,0 +1,15 @@
+nemi_design/
+.idea/
+.DS_Store/
+__pycache__/
+upload/
+build/
+dist/
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.py[cod]
+*.so
