@@ -10,17 +10,9 @@ class Config(object):
     BUNDLE_ERRORS = False
     # 默认打开API页展开所有的接口
     SWAGGER_UI_DOC_EXPANSION = 'list'
-    pass
-
-
-class ProdConfig(Config):
-    """生产环境配置"""
-    pass
-
-
-class DevConfig(Config):
-    """开发环境配置"""
     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://athrun:packet@192.168.72.11/Nemi'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     DEBUG = True
+    NFS_ADDR = "/mnt/mfs"
     pass
+

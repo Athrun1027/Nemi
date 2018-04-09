@@ -13,7 +13,7 @@ from .api_init import api, come_out_test_success, come_out_file_success
 from ..namespace_resources.api_init import come_out_resource_list_success
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-upload_dir = BASE_DIR + "/upload/"
+upload_dir = "/mnt/mfs" + "/upload/"
 
 
 @api.route('/')
@@ -29,14 +29,14 @@ class FileCreate(ResourceCreate):
         bucket_id = request.form.get("bucket_id")
         for item in request.files:
             item_file = request.files.get(item)
-            item_file.save("./upload/"+item_file.filename)
+            item_file.save(upload_dir+item_file.filename)
             item_file_size = request.form.get(item + "_size")
             file_object_save(item_file, folder_id, item_file_size, bucket_id)
         return {"status": "success"}
 
 
 def generate(filename):
-    with open("./upload/"+filename, "rb+") as r:
+    with open(upload_dir+filename, "rb+") as r:
         while True:
             chunk_data = r.read(512)
             if not chunk_data:

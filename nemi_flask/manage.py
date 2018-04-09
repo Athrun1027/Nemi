@@ -4,7 +4,7 @@ from flask_migrate import Migrate, MigrateCommand
 import models
 
 from app_init import create_app
-from app_config import DevConfig as Config
+from app_config import Config
 
 
 # Create thr app instance via Factory Method
