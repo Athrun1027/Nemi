@@ -16,7 +16,7 @@ manager = Manager(app)
 migrate = Migrate(app, models.db)
 
 # Create some new commands
-manager.add_command("server", Server())
+manager.add_command("server", Server(host="*"))
 manager.add_command("db", MigrateCommand)
 
 
